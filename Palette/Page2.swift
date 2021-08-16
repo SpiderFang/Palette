@@ -58,6 +58,7 @@ class Page2: UIViewController {
         super.viewDidAppear(animated)
         
         //Check book page.171, View的可動畫屬性有限定種類
+        
         //Wrong! addSublayer not animatable
 //        UIView.animate(withDuration: 3.5, animations: {
 //            self.pageColorLayer.backgroundColor = self.colorHolder?.cgColor

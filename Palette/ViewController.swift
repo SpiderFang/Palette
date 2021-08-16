@@ -36,7 +36,8 @@ class ViewController: UIViewController {
         redValue.text = "0"
         greenValue.text = "0"
         blueValue.text = "0"
-    
+        
+        //string to integer convert
         let defaultRed = Int(redValue.text!)
         let defaultGreen = Int(greenValue.text!)
         let defaultBlue = Int(blueValue.text!)
